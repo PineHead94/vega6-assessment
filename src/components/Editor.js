@@ -119,7 +119,7 @@ function Editor() {
             addSquare={addSquare}
             setColor={setColor}
             color={color}
-            download={download}
+            // download={download}
           />
         </div>
       </div>

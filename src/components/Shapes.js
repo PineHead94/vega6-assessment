@@ -11,7 +11,6 @@ function Shapes({
   addSquare,
   setColor,
   color,
-  download,
 }) {
   const [selected, setSelected] = useState("triangle");
   const [a, setA] = useState(0);
@@ -238,7 +237,7 @@ function Shapes({
       </div>
       <button
         className="shapes-component-button-component"
-        onClick={() => download()}
+        // onClick={() => download()}
       >
         DOWNLOAD
       </button>
